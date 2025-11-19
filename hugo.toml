@@ -206,7 +206,13 @@ enableEmoji = true
 
 
     [params.footer]
-      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
+    #   copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
+    #                "Design: [HTML5 UP](//html5up.net/alpha)",
+    #                "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
+    #               ]
+
+      copyright = ["© Shepherd Hill Lane Baptist Church",
+                #    "Built with: [hugo](https://gohugo.io)",
                    "Design: [HTML5 UP](//html5up.net/alpha)",
                    "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
                   ]
@@ -221,7 +227,7 @@ enableEmoji = true
       service = "Facebook"
       icon = "fa-facebook"
       icon_pack = "fab"
-      link = "//facebook.com/"
+      link = "//facebook.com/shepherdshilllane"
 
     # [[params.links]]
     #   service = "Podcast"
@@ -229,11 +235,17 @@ enableEmoji = true
     #   icon_pack = "fas"
     #   link = "/sermons/index.xml"
 
-    # [[params.links]]
-    #   service = "Instagram"
-    #   icon = "fa-instagram"
-    #   icon_pack = "fab"
-    #   link = "//instagram.com"
+    [[params.links]]
+      service = "Instagram"
+      icon = "fa-instagram"
+      icon_pack = "fab"
+      link = "//instagram.com/shlbchurch"
+
+    [[params.links]]
+      service = "YouTube"
+      icon = "fa-youtube"
+      icon_pack = "fab"
+      link = "//youtube.com/@Shepherdshilllanebaptistchurch"
 
     # [[params.links]]
     #   service = "Full RSS Feed"
