@@ -118,8 +118,8 @@ enableEmoji = true
 # Paramaters for the whole site
 [params]
   title = "Shepherds Hill Lane Baptist Church"
-  # subtitle = "A Jesus Church"
-  logo2 = "img/shlbc_hrz_blk.png"
+  subtitle = "God is Good All the Time....... All the Time God is Good"
+#   logo2 = "img/shlbc_hrz_blk.png"
   keywords = ["theme", "hugo", "podcast"]
   languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
   # bible_popups = "faithlife" #faithlife, blb
@@ -127,7 +127,8 @@ enableEmoji = true
   bible_popups = "blb" #"faithlife" #faithlife, blb
   # bible_version = "KJV1900" #"CSB" #HCSB, NIV, NLT, ESV, etc.
   instant_page = true
-  customCSS = ["example.css"]
+#   customCSS = ["example.css"]
+#customCSS = ["/css/my.css"]
   # test_api = "{{ getenv 'HUGO_GOOGLE_API' }}"
 
 
@@ -142,7 +143,8 @@ enableEmoji = true
 
   [params.banner]
     # image = "img/banner.jpg"
-    image = "images/cross-on-hill.jpeg"
+    # image = "images/cross-on-hill.jpeg"
+    image = "img/shlc-banner.png"
 
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
@@ -159,14 +161,14 @@ enableEmoji = true
     spotify = "https://open.spotify.com/show/1iE3aJkf8fJ2FVTvJGFd4h"
 
   [params.map]
-    service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
+    #service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
     # For Open Street Map widgets
     latitude = "33.304038788294605"
     longitude = "-96.26261624627612"
     zoom = "15"
     # If you want to use google maps you'll need an API Key from Google https://developers.google.com/maps/documentation/embed/get-api-key
-    # service = "google"
-    # api_key = "{{ getenv 'HUGO_GOOGLE_API' }}"
+     service = "google"
+    api_key = "{{ getenv 'HUGO_GOOGLE_API' }}"
     #language = "fr" #Optional
     #region = "FR" #Optional
     api_test = "{{ getenv API_KEY_NAME }}"

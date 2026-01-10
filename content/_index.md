@@ -1,14 +1,14 @@
 +++
-[banner]
-  [[banner.button]]
-      url = "/contact"
-      text = "Get in touch"
-      # type = "primary"
+# [banner]
+#   [[banner.button]]
+#       url = "/contact"
+#       text = "Get in touch"
+#       # type = "primary"
 
-  [[banner.button]]
-      url = "#feature-icons"
-      text = "Find out more"
-      type = "primary"
+#   [[banner.button]]
+#       url = "#feature-icons"
+#       text = "Find out more"
+#       type = "primary"
 
 # [welcome]
 #   title = "Welcome to Shepherd Hill Lane Baptist Church Online"
@@ -20,6 +20,8 @@
   map_location = "Shepherds Hill Lane Baptist Church"
   # text = "Service starts at 11 am at [5984 County Road 1133 Leonard, TX 75452](https://www.openstreetmap.org/way/9567392)"
   text = "Sunday School @ 10am<br>Worship Service Sunday @ 11am<br>Wednesday Nights @ 7pm<br>[5984 County Road 1133 Leonard, TX 75452](https://www.openstreetmap.org/way/9567392)"
+
+# https://www.google.com/maps/place/One+Mile+State+School/@-26.1997787,152.6742752,19z/data=!4m5!3m4!1s0x6b94a30d9a0bf369:0xde32fe78650ce6b!8m2!3d-26.1998437!4d152.6752904
 
 #   [[services.day]]
 #     day = "Sunday"

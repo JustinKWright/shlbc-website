@@ -15,3 +15,5 @@ Gary is the middle child as well as left handed so he says you might as well cal
 * Stanley Pheifer
 * Russ Hargrave
 * Robert Williams
+* Ronnie Foley
+* Paul Davis
