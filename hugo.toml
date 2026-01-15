@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://justinkwright.github.io/shlbc-website/'
 languageCode = 'en-us'
 title = 'Shepherds Hill Lane Baptist Church'
 theme = 'alpha-church'
