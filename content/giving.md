@@ -12,6 +12,6 @@ Online giving is a safe and easy way to support Shepherds Hill Lane Baptist Chur
 
 <--->
 
-![Shepherds Hill Lane Church Tithe.ly qr](/img/tithely_qr.png)
+![Shepherds Hill Lane Church Tithe.ly qr](../static/img/tithely_qr.png)
 
 {{< /columns >}}
