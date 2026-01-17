@@ -38,7 +38,7 @@
     accent = "1"
     title = "Leaders"
     text = "Read More"
-    url = "/leaders"
+    url = "../leaders"
 
   [[feature_icons.tile]]
     icon = "fa-users"
