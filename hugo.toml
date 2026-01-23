@@ -168,7 +168,7 @@ enableEmoji = true
     longitude = "-96.26261624627612"
     zoom = "15"
     # If you want to use google maps you'll need an API Key from Google https://developers.google.com/maps/documentation/embed/get-api-key
-     service = "google"
+    service = "google"
     api_key = "{{ getenv 'HUGO_GOOGLE_API' }}"
     #language = "fr" #Optional
     #region = "FR" #Optional
