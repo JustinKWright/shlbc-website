@@ -46,7 +46,7 @@
     accent = "2"
     title = "About Us"
     text = "Find out more"
-    url = "/about"
+    url = "../about"
 
   # [[feature_icons.tile]]
   #   icon = "fa-comments"
