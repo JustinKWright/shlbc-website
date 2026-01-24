@@ -70,6 +70,7 @@ jobs:
     needs: build
     env: 
       HUGO_GOOGLE_API: ${{ secrets.HUGO_GOOGLE_API }}
+      HUGO_TEST_VALUE: ${{ secrets.HUGO_TEST_VALUE }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
