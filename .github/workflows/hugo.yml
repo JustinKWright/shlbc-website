@@ -26,6 +26,10 @@ defaults:
   run:
     shell: bash
 
+env:
+  HUGO_GOOGLE_API: ${{ secrets.HUGO_GOOGLE_API }}
+  HUGO_TEST_VALUE: ${{ secrets.HUGO_TEST_VALUE }}
+
 jobs:
   # Build job
   build:
@@ -75,6 +79,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          HUGO_GOOGLE_API: ${{ secrets.HUGO_GOOGLE_API }}
-          HUGO_TEST_VALUE: ${{ secrets.HUGO_TEST_VALUE }}
+        # with:
+        #   HUGO_GOOGLE_API: ${{ secrets.HUGO_GOOGLE_API }}
+        #   HUGO_TEST_VALUE: ${{ secrets.HUGO_TEST_VALUE }}
